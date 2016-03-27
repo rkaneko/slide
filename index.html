@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>here is my slide's title</title>
+    <meta charset="utf-8">
+    <link href="./css/index.css" rel="stylesheet" type="text/css">
+    <link href="./css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <textarea id="source">
+
+name: rkaneko-theme
+layout: true
+class: rkaneko-theme
+---
+class: title-page
+
+# My Slide's title
+## Sub title
+#### MMM dd, yyyy
+##### where to place
+
+<span class="head-my-name">
+  <span class="head-my-name__icon">
+    <img src="./img/myicon_round.png" alt="rkaneko"/>
+  </span>
+  <span class="head-my-name__text">
+    Ryota Kaneko
+  </span>
+</span>
+  
+<span class="head-github-name">
+  <span class="head-github-name__icon">
+    <i class="fa fa-github fa-2x"></i>
+  </span>
+  <span class="head-github-name__text">
+    rkaneko
+  </span>
+</span>
+---
+
+# Agenda
+
+0. Intro
+
+---
+
+class: center
+
+#### centering slide
+
+<img src="./img/myicon_round.png" alt="rkaneko" width="540px"/>
+
+---
+class: center, middle
+
+# center &amp; middle
+
+---
+class: paragraph-page
+
+## the paragraph page
+
+### [Font Awesome](https://fortawesome.github.io/Font-Awesome/)
+### [foobar](https://rkaneko.com/foobar)
+---
+
+### Tips
+
++ code
+```js
+(() => {
+  console.log('Hello my slide!');
+})();
+```
+
++ link
+
+  - [rkaneko &amp; GitHub](https://github.com/rkaneko)
+  - [foobar](https://rkaneko.com/foobar)
+
+---
+class: paragraph-page
+
+### Thanks!
+
+    </textarea>
+    <script src="javascript/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({
+        ratio: '4:3',
+        highlightStyle: 'androidstudio',
+      });
+    </script>
+  </body>
+</html>
