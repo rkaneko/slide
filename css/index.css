@@ -46,6 +46,47 @@
   vertical-align: middle;
 }
 
+.paragraph-picture-page {
+  padding: 0;
+}
+
+.paragraph-picture-page figure {
+  color: #000;
+  padding: 0 !important;
+  margin: 0 !important;
+  position: relative;
+}
+
+.paragraph-picture-page img {
+  padding: 0;
+  width: 100%;
+  background-attachment: fixed;
+  background-color: #000;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.paragraph-picture-page__block {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.paragraph-picture-page__caption {
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  bottom: 1em;
+  color: #fff;
+  font-size: 60px;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
 .remark-code {
   border-radius: 5px;
 }
