@@ -110,13 +110,27 @@ class: paragraph-picture-page
 </figure>
 ---
 
+.mermaid[graph LR
+        A-->B
+        B-->C
+        C-->A
+        D-->C]
+
+.mermaid[graph LR
+        A[This is the text in the box] --> B(This is the text in the box)
+        B -->|text| C[This is the text in the box]]
+
+---
+
 class: paragraph-page
 
 ### Thanks!
 
     </textarea>
-    <script src="javascript/remark-latest.min.js">
-    </script>
+    <script src="javascript/remark-latest.min.js"></script>
+    <script src="./javascript/mermaid.min.js"></script>
+    <link rel="stylesheet" href="./css/mermaid.css">
+    <script>mermaid.initialize({startOnLoad:true});</script>
     <script>
       var slideshow = remark.create({
         ratio: '4:3',
