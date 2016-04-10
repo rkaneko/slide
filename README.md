@@ -12,4 +12,4 @@ This is my slide template using [remark](https://github.com/gnab/remark).
 ### Credits
 
 + [remark](https://github.com/gnab/remark) v0.13.0
-+ [mermail.js](https://github.com/knsv/mermaid) v0.5.8
++ [mermaid.js](https://github.com/knsv/mermaid) v0.5.8
