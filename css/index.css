@@ -10,6 +10,7 @@
 
 .rkaneko-theme table {
   background-color: #00284d;
+  border-radius: 5px;
   /* box-sizing: border-box; */
   width: 100%;
 }
