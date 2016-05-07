@@ -16,6 +16,44 @@
   width: 80%;
 }
 
+.blockquote {
+  background-color: #eee;
+  border-radius: 5px;
+  color: #424242;
+  font-style: italic;
+  padding: 1em 1em 1em 3em;
+  position: relative;
+}
+
+.blockquote:before {
+  content: "“";
+  font-size: 600%;
+  line-height: 1em;
+  font-family: "ＭＳ Ｐゴシック",sans-serif;
+  color: #999;
+  position:absolute;
+  left: 0;
+  top: 0;
+}
+
+.blockquote-origin {
+  position: absolute;
+  right: 1em;
+  bottom: 0.5em;
+}
+
+.blockquote-origin:before {
+  content: "";
+  display: block;
+  border-top: solid 0.1em #424242;
+  width: 1.5em;
+  height: 0.5em;
+  position: absolute;
+  top: 50%;
+  left: -2em;
+  z-index: 1;
+}
+
 .rkaneko-theme table {
   background-color: #00284d;
   border-radius: 5px;
