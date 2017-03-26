@@ -6,7 +6,6 @@
     <link rel="shortcut icon" href="./img/favicon.ico"/>
     <link href="./css/index.css" rel="stylesheet" type="text/css">
     <link href="./css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="./css/mermaid.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <textarea id="source">
@@ -144,27 +143,12 @@ class: paragraph-picture-page
 <figcaption><p class="paragraph-picture-page__caption">awesome!</p></figcaption>
 </figure>
 ---
-
-.mermaid[graph LR
-        A-->B
-        B-->C
-        C-->A
-        D-->C]
-
-.mermaid[graph LR
-        A[This is the text in the box] --> B(This is the text in the box)
-        B -->|text| C[This is the text in the box]]
-
----
-
 class: paragraph-page
 
 ### Thanks!
 
     </textarea>
     <script src="./javascript/remark-0.14.0.js"></script>
-    <script src="./javascript/mermaid.min.js"></script>
-    <script>mermaid.initialize({startOnLoad:true});</script>
     <script>
       var slideshow = remark.create({
         ratio: '4:3',

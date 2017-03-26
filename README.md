@@ -11,5 +11,5 @@ This is my slide template using [remark](https://github.com/gnab/remark).
 
 ### Credits
 
-+ [remark](https://github.com/gnab/remark) v0.13.0
-+ [mermaid.js](https://github.com/knsv/mermaid) v0.5.8
++ [remark](https://github.com/gnab/remark) v0.14.0
++ [mermaid.js](https://github.com/knsv/mermaid) v6.0.0
